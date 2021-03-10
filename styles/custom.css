@@ -132,3 +132,7 @@ ins {
   padding: 2px 10px;
   text-shadow: 0 0 10px white;
 }
+
+.slide:not(.full) > blockquote:first-child {
+  padding-top: 145px;
+}

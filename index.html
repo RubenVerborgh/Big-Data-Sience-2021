@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Solid: personal data innovation</title>
+  <title>Solid: innovation through personal data control</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
@@ -10,20 +10,20 @@
 </head>
 <body class="shower list">
   <header class="caption">
-    <h1>Solid: personal data innovation</h1>
+    <h1>Solid: innovation through personal data control</h1>
     <p>
       <a href="https://ruben.verborgh.org/">Ruben Verborgh</a>,
       <a href="http://www.ugent.be/">Ghent University</a> –
       <a href="http://www.imec.be/">imec</a>
     </p>
     <p class="venue">
-      <a href="https://www.agoria.be/nl/Workshop-SOLID-voor-bedrijven">Agoria workshop: Solid voor bedrijven</a>,
-      23 February 2021
+      Workshop for the European Court of Auditors,
+      10 March 2021
     </p>
   </header>
 
   <div class="title slide" id="title">
-    <h2>Solid:<br> personal data innovation</h2>
+    <h2>Solid: innovation through personal data control</h2>
     <p class="author">Ruben Verborgh</p>
     <p class="affiliation">Ghent University – imec</p>
   </div>
@@ -62,36 +62,227 @@
     <span class="label distance">11 km</span>
   </div>
 
-  <div class="text slide" id="redefine">
-    <p class="next">
-      We don’t have a privacy problem,<br>
-      <span class="next">we have an innovation problem.</span>
+  <div class="slide" id="redefine">
+    <h2>
+      We are facing an innovation problem<br>
+      and it pertains to personal data.
+    </h2>
+    <p>
+      Let’s look for answers to these questions:
     </p>
-    <p class="next">
-      With Solid, we aim to<br>
-      redefine the relationship<br>
-      between <em>people</em>, their <em>data</em>,<br>
-      and the <em>services</em> they use.
-    </p>
+    <ul>
+      <li>How has the Web enabled innovation in the past?</li>
+      <li>Why are major companies struggling to innovate?</li>
+      <li>What is missing from the Web for innovation today?</li>
+    </ul>
   </div>
 
   <div class="toc slide" id="toc">
     <ul>
-      <li><a href="#toc-data">An innovation problem</a></li>
-      <li><a href="#toc-principles">The Solid principles</a></li>
-      <li><a href="#toc-ecosystem">The Solid ecosystem</a></li>
+      <li><a href="#toc-decentralization">Threats to openness</a></li>
+      <li><a href="#toc-solid">The Solid ecosystem</a></li>
+      <li><a href="#toc-challenges">Challenges for the future</a></li>
     </ul>
   </div>
 
-  <div class="toc slide" id="toc-data">
+  <div class="toc slide" id="toc-decentralization">
     <ul>
-      <li class="current"><a href="#toc-data">An innovation problem</a></li>
-      <li><a href="#toc-principles">The Solid principles</a></li>
-      <li><a href="#toc-ecosystem">The Solid ecosystem</a></li>
+      <li class="current">
+        <a href="#toc-decentralization">Threats to openness</a>
+      </li>
+      <li><a href="#toc-solid">The Solid ecosystem</a></li>
+      <li><a href="#toc-challenges">Challenges for the future</a></li>
+    </ul>
+  </div>
+
+  <div class="slide" id="universality">
+    <h2>
+      The Web strives to be <em><a href="https://www.w3.org/2005/Talks/0323-yorkshire-tbl/slide5-2.html">universal</a></em><br> through
+      independence of many factors.
+    </h2>
+    <ul>
+      <li>
+        Anyone can use the Web, regardless of:
+        <dl>
+          <dt>hardware</dt>
+          <dd>desktop</dd>
+          <dd>phone</dd>
+          <dd>tablet</dd>
+          <dd>watch</dd>
+          <dd>…</dd>
+
+          <dt>software</dt>
+          <dd>operating system</dd>
+          <dd>browser</dd>
+          <dd>app</dd>
+          <dd>…</dd>
+        </dl>
+      </li>
+      <li class="next">
+       Developers are free to innovate.
+        <ul>
+          <li>Build for the Web.</li>
+          <li>Standards provide interoperability.</li>
+        </ul>
+      </li>
+      <li class="next">
+        Unfortunately, this is not the default elsewhere.
+        <ul>
+          <li>App stores are a prominent counterexample.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="freedom-of-expression">
+    <h2>
+      The Web brings <em>freedom of expression</em><br>
+      to everyone across the world.
+    </h2>
+    <ul>
+      <li class="next">
+        <q>Anyone can say anything about anything.</q>
+      </li>
+      <li class="next">
+        We all have our own spaces,<br>
+        so we don’t have to agree.
+      </li>
+      <li class="next">
+        We can <em>link</em> to opinions of others<br>
+        to discuss about them.
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="permissionless-innovation">
+    <h2>
+      The Web brings <em>permissionless innovation</em><br>
+      at a global scale.
+    </h2>
+    <ul>
+      <li class="next">
+        Anyone can build anything for any reason.
+      </li>
+      <li class="next">
+        The technologies are open.
+      </li>
+      <li class="next">
+        You don’t need anyone’s permission<br>
+        to join the Web and launch a new idea.
+        <ul>
+          <li class="next">
+            This contrast with app stores.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="browser-wars">
+    <h2>
+      The first threat to universality<br>
+      were the <em>browser wars</em> of the 1990s.
+    </h2>
+    <ul>
+      <li class="next">
+        No Internet Explorer?
+        <ul>
+          <li>You’re out of luck!</li>
+        </ul>
+      </li>
+      <li class="next">
+        People needed a certain computer.
+        <ul>
+          <li>no mobile devices</li>
+        </ul>
+      </li>
+      <li class="next">
+        Developers depended on Microsoft’s pace.
+        <ul>
+          <li>browsers were not very powerful</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="search-engine-wars">
+    <h2>
+      This battle was replaced by another:<br>
+      the <em>search engine wars</em> of the 2000s.
+    </h2>
+    <ul>
+      <li class="next">
+        Not on Google?
+        <ul>
+          <li>You’re out of luck!</li>
+        </ul>
+      </li>
+      <li class="next">
+        Ranking high became more important<br>
+        than high-quality content.
+      </li>
+      <li class="next">
+        The reach of your innovations<br>
+        depended on one crawler.
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="platform-wars">
+    <h2>
+      This battle was also replaced by another:<br>
+      the <em>platform wars</em> of the 2010s.
+    </h2>
+    <ul>
+      <li class="next">
+        Not on Facebook?
+        <ul>
+          <li>You’re out of luck!</li>
+        </ul>
+      </li>
+      <li class="next">
+        Clicks became more important<br>
+        than high-quality content.
+      </li>
+      <li class="next">
+        You either compete for innovation<br>
+        with Facebook, or depend on it.
+      </li>
+    </ul>
+  </div>
+
+  <div class="cover slide" id="centralization">
+    <h2>
+      Our data has become centralized<br>
+      in a handful of Web platforms.
+    </h2>
+    <ul>
+      <li class="next">
+        People’s former personal blogs<br>
+        are now on Facebook and Twitter
+        <ul>
+          <li class="next">great user experience</li>
+          <li class="next">but we lost control</li>
+        </ul>
+      </li>
+      <li class="next">
+        This has far-reaching consequences for privacy.
+      </li>
+      <li class="next">
+        The Web’s universality is visibly threatened.
+        <ul>
+          <li class="next"><q>Sign in with Facebook to see this content.</q><li>
+          <li class="next"><q>Facebook works better with the native app.</q><li>
+        </ul>
+      </li>
     </ul>
   </div>
 
   <div class="dark cover slide" id="walled-gardens">
+    <h2>
+      Within the walled gardens of social media,<br>
+      you have to move either data or people.
+    </h2>
     <figure class="cover width">
       <img src="images/walled-gardens.jpg">
       <figcaption>
@@ -100,46 +291,84 @@
     </figure>
   </div>
 
-  <div class="toc slide" id="toc-principles">
+  <div class="slide" id="web-challenges">
+    <h2>
+      In 2017, Tim Berners-Lee listed<br>
+      <a href="https://webfoundation.org/2017/03/web-turns-28-letter/">three challenges</a> for the Web.
+    </h2>
+    <ol>
+      <li class="next">
+        We need to regain control<br> over our personal data.
+      </li>
+      <li class="next">
+        We need to reduce the spread<br>
+        of misinformation.
+      </li>
+      <li class="next">
+        We need transparency and understanding<br>
+        of political advertising.
+      </li>
+    </ol>
+    <p>
+      All three indicate a loss of control/agency.
+    </p>
+  </div>
+
+  <div class="toc slide" id="toc-solid">
     <ul>
-      <li><a href="#toc-data">An innovation problem</a></li>
-      <li class="current"><a href="#toc-principles">The Solid principles</a></li>
-      <li><a href="#toc-ecosystem">The Solid ecosystem</a></li>
+      <li><a href="#toc-decentralization">Threats to openness</a></li>
+      <li class="current"><a href="#toc-solid">The Solid ecosystem</a></li>
+      <li><a href="#toc-challenges">Challenges for the future</a></li>
     </ul>
   </div>
 
-  <div class="text slide" id="summary">
-    <p>
-      Solid is about <em>choice</em>.
-    </p>
-    <p class="next">
-      The Solid ecosystem enables <em>people</em>
-      to pick the <em>services</em> they need,
-      <span class="next">while<br> storing their <em>data</em> wherever they want.</span>
-    </p>
-    <p class="next">
-      People control their data,
-      <span class="next">and share it<br>
-      with services and people they choose.</span>
-    </p>
+  <div class="slide" id="solid">
+    <h2>
+      Tim Berners-Lee is spearheading <em>Solid</em><br>
+      as an ecosystem to take back control.
+    </h2>
+    <ul>
+      <li class="next">
+        Solid is a way of building Web apps that<br>
+        let people keep control of their data.
+      </li>
+      <li class="next">
+        Solid combines existing W3C standards<br>
+        to define how agents should interact.
+        <ul>
+          <li class="next">
+            It is <em>not</em> a new Web:<br>
+            it builds on top of the existing Web.
+          </li>
+        </ul>
+      </li>
+      <li class="next">
+        Like the Web, Solid is for everyone.
+        <ul>
+          <li class="next">
+            Bring back universality and permissionless innovation.
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 
   <div class="slide" id="choice">
     <h2>
       Solid aims to restore <em>choice</em><br>
-      by separating data from services.
+      by separating data from apps.
     </h2>
     <ul>
       <li>
         Typical platforms nowadays store data<br>
         inseparably from an application.
         <ul>
-          <li class="next">If we need certain data, we cannot choose our service.</li>
-          <li class="next">If we need a certain service, we can’t choose a data source.</li>
+          <li class="next">If we need to access the data, we cannot choose our app.</li>
+          <li class="next">If we need to use the app, we can’t choose our data source.</li>
         </ul>
       </li>
       <li class="next">
-        By separating data from services,<br>
+        By separating data from apps,<br>
         we create independent choices.
         <ul>
           <li class="next">
@@ -173,7 +402,7 @@
 
   <div class="slide" id="views">
     <h2>
-      A person can grant services access<br>
+      A person can grant apps and people access<br>
       to very specific parts of their data.
     </h2>
     <figure class="cover width margin">
@@ -201,94 +430,60 @@
     </figure>
   </div>
 
-  <div class="toc slide" id="toc-ecosystem">
-    <ul>
-      <li><a href="#toc-data">An innovation problem</a></li>
-      <li><a href="#toc-principles">The Solid principles</a></li>
-      <li class="current"><a href="#toc-ecosystem">The Solid ecosystem</a></li>
-    </ul>
-  </div>
-
-  <div class="slide" id="solid-logo">
-    <figure class="cover height">
-      <img src="images/solid-logo.svg" alt="[the Solid logo]" />
-    </figure>
-  </div>
-
-  <div class="slide" id="solid">
+  <div class="slide" id="ecosystem">
     <h2>
-      Solid is not a company or organisation.<br>
-      Solid is not (just) software.
+      Solid is not a platform to replace others,<br>
+      but a way of building for the Web.
     </h2>
     <ul>
       <li>
-        Solid is an ecosystem
+        Solid is an ecosystem.
         <ul>
-          <li class="next">standards enable interoperability</li>
+          <li class="next">Standards enable interoperability</li>
         </ul>
       </li>
       <li>
-        Solid is a movement
+        Solid is a movement.
         <ul>
-          <li class="next">shifting the app builder mindset</li>
+          <li class="next">We need to shift the app builder mindset.</li>
         </ul>
       </li>
       <li>
-        Solid is a community
+        Solid is a community.
         <ul>
-          <li class="next">different people, companies, and organisations</li>
+          <li class="next">
+            Building Solid requires different people,<br>
+            companies, and organisations.
+          </li>
         </ul>
-      </li>
-    </ul>
-    <figure class="cover height">
-      <img class="faded" src="images/solid-logo.svg" alt="[the Solid logo]" />
-    </figure>
-  </div>
-
-  <div class="slide" id="open">
-    <h2>
-      Anyone can build or host<br>
-      software for Solid.
-    </h2>
-    <ul>
-      <li class="next">
-        a server at home and/or<br>
-        at your workplace
-      </li>
-      <li class="next">
-        rent server space
-      </li>
-      <li class="next">
-        use one of the<br>
-        free community servers
       </li>
     </ul>
   </div>
 
   <div class="slide" id="server">
     <h2>
-      The Solid server acts as a data pod<br>
+      A Solid server acts as a data pod<br>
       that stores and guards your data.
     </h2>
     <ul>
       <li class="next">
-       a regular Web server
+       It is a regular Web server
         <ul>
-          <li>with support for access control</li>
-          <li>with support for Linked Data</li>
+          <li>…with support for access control.</li>
+          <li>…with support for Linked Data.</li>
         </ul>
       </li>
       <li class="next">
-       application-agnostic
+       Its interface is application-agnostic.
         <ul>
-          <li>build <em>any</em> application</li>
-          <li>application-specific logic resides in clients</li>
+          <li>Build <em>any</em> application, like on the Web.</li>
+          <li>Application-specific logic resides in clients.</li>
         </ul>
       </li>
       <li class="next">
-        just like your website
+        A Solid pod is essentially a website with data.
         <ul>
-          <li>your data can be opened with any app</li>
+          <li>Its data is compatible with any Solid app.</li>
         </ul>
       </li>
     </ul>
@@ -296,12 +491,12 @@
 
   <div class="slide" id="data-pod">
     <h2>
-      A typical data pod can contain<br>
-      any data you create or need online.
+      A data pod can contain any data<br>
+      you create or need online.
     </h2>
     <ul>
       <li>profile 👤</li>
-      <li>photos 🖼</li>
+      <li>media 🖼</li>
       <li>comments 🗣</li>
       <li>likes 👍</li>
       <li>… ✨</li>
@@ -314,22 +509,23 @@
       that read from or write to your data pod.
     </h2>
     <ul>
-      <li class="next">
-        you give apps permission
+      <li>
+        People give read and/or write permissions<br>
+        for specific pieces of data to:
         <ul>
-          <li>choose very precisely what they can access</li>
+          <li>apps</li>
+          <li>other people</li>
+          <li>automated agents</li>
+          <li>…</li>
         </ul>
       </li>
       <li class="next">
-        friends give you permission
+        Apps deliver an integrated experience.
         <ul>
-          <li>choose very precisely what you can access</li>
-        </ul>
-      </li>
-      <li class="next">
-        apps deliver a unified experience
-        <ul>
-          <li>browse your friends’ pictures along with yours</li>
+          <li>
+            Instead of displaying individual webpages or data items,<br>
+            apps interleave data from multiple sources.
+          </li>
         </ul>
       </li>
     </ul>
@@ -343,28 +539,40 @@
     <ul>
       <li>calendar 📅</li>
       <li>social feed 👥</li>
-      <li>persona data sharing 📸</li>
-      <li>citizen polling systems 🎤</li>
+      <li>photo sharing 📸</li>
+      <li>conference organization system 🎤</li>
       <li>… ✨</li>
+    </ul>
+  </div>
+
+  <div class="slide" id="standards">
+    <h2>
+      Client–server communication is governed<br>
+      by the Solid specifications.
+    </h2>
+    <ul>
+      <li class="next">
+        They essentially demand compliance<br>
+        with a couple of existing standards:
+        <ul>
+          <li>HyperText Transfer Protocol (HTTP)</li>
+          <li>Linked Data Platform (LDP)</li>
+          <li>Linked Data Notifications (LDN)</li>
+        </ul>
+      </li>
     </ul>
   </div>
 
   <div class="slide" id="past">
     <h2>
-      The Solid server and several apps exist<br>
-      and are usable for developers.
+      Several open-source implementations<br>
+      of servers, apps, and libraries exist.
     </h2>
     <ul>
       <li>
-        <a href="https://github.com/solid/node-solid-server/">Solid server</a>
+        <a href="https://github.com/solid/node-solid-server/">server</a>
         <ul class="next">
-          <li>store your data online with access control</li>
-          <li>
-            free storage at
-            <a href="https://solidcommunity.net/">solidcommunity.net</a>
-            and
-            <a href="https://inrupt.net/">inrupt.net</a>
-          </li>
+          <li>Use a public instance or host your own.</li>
         </ul>
       </li>
       <li>
@@ -388,75 +596,167 @@
     </ul>
   </div>
 
-  <div class="slide" id="present">
-    <h2>
-      Solid transitioned from research project<br>
-      into an ecosystem backed by start-ups.
-    </h2>
+  <div class="toc slide" id="toc-challenges">
     <ul>
-      <li>
-        MIT has been our home
-        <ul>
-          <li>initial development of server and apps</li>
-        </ul>
+      <li><a href="#toc-decentralization">Threats to openness</a></li>
+      <li><a href="#toc-solid">The Solid ecosystem</a></li>
+      <li class="current">
+        <a href="#toc-challenges">Challenges for the future</a>
       </li>
-      <li class="next">
-        Companies are accelerating development
-        <ul>
-          <li>open up the ecosystem for all</li>
-          <li>maintain common building blocks as open source</li>
-          <li>create tooling for developers</li>
-          <li>offer services and apps</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-  <div class="toc slide" id="recap">
-    <ul>
-      <li><a href="#toc-data">An innovation problem</a></li>
-      <li><a href="#toc-principles">The Solid principles</a></li>
-      <li><a href="#toc-ecosystem">The Solid ecosystem</a></li>
     </ul>
   </div>
 
   <div class="slide" id="multiple-backends">
     <h2>
-      Decentralized apps are more complex.<br>
-      We need new technologies to cope.
+      Decentralized apps have many back-ends.
+      Back-ends work with many apps.
     </h2>
     <figure class="cover width margin">
       <img src="images/multiple-backends.svg" alt="">
     </figure>
   </div>
 
-  <div id="idlab" class="slide">
+  <div class="slide" id="paradox-of-freedom">
     <h2>
-      My team at UGent – imec is looking to<br>
-      collaborate on decentralized challenges.
+      The <em>Paradox of Freedom</em>:<br>
+      you can only be free if you follow rules.
     </h2>
     <ul>
       <li class="next">
-        Our job is to envisage the problems ahead<br>
-        and perform research to find novel solutions.
+        Decentralization means making our own choices.
       </li>
       <li class="next">
-        We want to work you<br>
-        to address your use cases.
-        <ul class="next">
-          <li>bilateral</li>
-          <li>European projects</li>
-          <li>…</li>
+        Unless we agree on some basic things,<br>
+        no one will see the result of our choices.
+      </li>
+      <li class="next">
+        Agreement can be layered:
+        <ul>
+          <li class="next">100% agrees on a small set <em>(labeling, authorship, …)</em></li>
+          <li class="next">80% agrees on a larger set <em>(places, dimensions)</em></li>
+          <li class="next">5% agrees on many smaller sets <em>(sizes, colors, …)</em></li>
         </ul>
-      </li>
-      <li class="next">
-        <a href="mailto:ruben.verborgh@ugent.be">Let’s stay in touch.</a>
       </li>
     </ul>
   </div>
 
+  <div class="slide" id="network-1">
+    <h2>
+      Current networks are centered<br>
+      around the aggregator.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-1.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="network-2">
+    <h2>
+      We need to create network flows<br>
+      to and from the aggregator.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-2.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="network-3">
+    <h2>
+      The individual network nodes<br>
+      need to become the source of truth.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-3.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="network-4">
+    <h2>
+      Aggregators need to become part<br>
+      of a larger network.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-4.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="network-5">
+    <h2>
+      Aggregators serve as a crucial<br>
+      but transparent layer in the network.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-5.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="network-6">
+    <h2>
+      Aggregators’ main responsibility becomes<br>
+      fostering a network between nodes.
+    </h2>
+    <figure class="cover width margin">
+      <img src="images/network-6.svg" alt="">
+    </figure>
+  </div>
+
+  <div class="slide" id="hypermedia">
+    <h2>
+      Interoperability challenges in Solid<br>
+      are solved through Linked Data.
+    </h2>
+    <ul>
+      <li>
+        If we all store our own data,<br>
+        <span class="next">how do we connect it to others’ data?</span>
+      </li>
+      <li>
+        How can apps share data,<br>
+        <span class="next">without too many prior agreements?</span>
+      </li>
+      <li>
+        How do we integrate data<br>
+        <span class="next">from multiple data pods?</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="toc slide" id="recap">
+    <ul>
+      <li><a href="#toc-decentralization">Threats to openness</a></li>
+      <li><a href="#toc-solid">The Solid ecosystem</a></li>
+      <li><a href="#toc-challenges">Challenges for the future</a></li>
+    </ul>
+  </div>
+
+  <div class="text slide" id="kay">
+    <blockquote>
+      <p>The best way to predict<br> the future is to invent it.</p>
+      <cite>Alan Kay</cite>
+    </blockquote>
+  </div>
+
+  <div class="text slide" id="barlow">
+    <blockquote>
+      <p>The best way to invent<br> the future is to predict it.</p>
+      <cite>John Perry Barlow</cite>
+    </blockquote>
+  </div>
+
+  <div class="slide" id="conclusion">
+    <blockquote>
+      <p>
+        Let’s assemble the brightest minds<br>
+        from business, technology, government,<br>
+        civil society, the arts and academia<br>
+        to tackle the threats to the Web’s future.
+      </p>
+      <cite><a href="https://webfoundation.org/2018/03/web-birthday-29/">Tim Berners-Lee</a></cite>
+    </blockquote>
+  </div>
+
   <div class="title slide" id="end">
-    <h2>Solid:<br> personal data innovation</h2>
+    <h2>Solid: innovation through personal data control</h2>
     <p class="author"><a href="https://twitter.com/RubenVerborgh">@RubenVerborgh</a></p>
     <p class="affiliation"><a href="https://ruben.verborgh.org/">ruben.verborgh.org</a></p>
   </div>
