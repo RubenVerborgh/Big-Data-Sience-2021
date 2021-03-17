@@ -59,9 +59,8 @@ ul.inline li {
   font-size: 1.3em;
   line-height: 1.33;
 }
-.text.slide p {
-  font-size: 1.3em;
-  line-height: 1.4;
+.intro.text.slide p {
+  font-size: 1.5em;
 }
 
 .slide.cover h2 {
@@ -133,6 +132,7 @@ ins {
   text-shadow: 0 0 10px white;
 }
 
-.slide:not(.full) > blockquote:first-child {
-  padding-top: 145px;
+iframe {
+  width: 100%;
+  height: 100%;
 }
